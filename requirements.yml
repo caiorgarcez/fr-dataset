@@ -1,0 +1,14 @@
+# fr-dataset requirements file for anaconda environments
+# USAGE: conda env create -f requirements.yml
+
+name: fdataset
+
+channels:
+    - conda-forge
+    - defaults
+
+dependencies:
+    - python=3.6
+    - opencv
+    - dlib
+    - imutils
