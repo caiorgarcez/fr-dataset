@@ -3,7 +3,7 @@ Scripts for generating a facial recognition dataset for deep learning applicatio
 
 ### install the environment
 
-Packages and other to run `fr-dataset` via conda with `requirements.yml` or via pip with `requirements.txt` 
+Packages and other requirements to run `fr-dataset` is provided for conda in `requirements.yml` and for pip in `requirements.txt`.
 
 for conda run: 
 `$ conda env create -f requirements.yml`
