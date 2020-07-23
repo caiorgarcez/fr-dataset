@@ -17,7 +17,7 @@ for pip run:
 
 ### 2. Usage and features:
 
-`-isrc` Path of the video file. If the video source comes from a webcam set: <0>
+`-isrc` Path of the video file. If the video source comes from a webcam set: <0>  
 `"-sol"` Solution for facial detection. Options: <dlib> or <resnet>
 `"-c"` Crop output frame.Options: <0> for no <1> for yes
 `"-o"` Path of the output folder for writing frames
