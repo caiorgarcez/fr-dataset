@@ -1,5 +1,5 @@
 ## fr-dataset
-Script for generating a facial recognition dataset for deep learning applications. 
+Script for generating a custom facial recognition dataset for deep learning applications. 
 
 -----
 
