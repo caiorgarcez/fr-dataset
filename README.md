@@ -26,4 +26,4 @@ for pip run:
 Within the project repository it is necessary to create a folder named `output` to store the captured frames. Later, provide in the parse the name of the folder as in:
 `$ ... -o <output path>` 
 
-The code for this project is based in: (https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/)[[1]]
+The code for this project is based in: [[1]](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/)
