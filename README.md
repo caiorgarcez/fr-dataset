@@ -18,14 +18,14 @@ for pip run:
 ### 2. Usage and features:
 
 `-isrc` Path of the video file. If the video source comes from a webcam set: <0>  
-`"-sol"` Solution for facial detection. Options: <dlib> or <resnet>
-`"-c"` Crop output frame.Options: <0> for no <1> for yes
-`"-o"` Path of the output folder for writing frames
-`"-n"` Name of the person
-`"-res"` Folder of RESNET facial detector files compatible with the .dnn Opencv lib
-`"-conf"` Minimum probability to filter weak detections
+`-sol` Solution for facial detection. Options: <dlib> or <resnet>  
+`-c` Crop output frame.Options: <0> for no <1> for yes  
+`-o` Path of the output folder for writing frames  
+`-n` Name of the person
+`-res` Folder of RESNET facial detector files compatible with the .dnn Opencv lib  
+`-conf` Minimum probability to filter weak detections  
 
-Example: `$ python main.py -isrc 0 -sol dlib -c 0 -o output -n <name1>`
+Example: `$ python main.py -isrc 0 -sol dlib -c 0 -o output -n <name1>` 
 
 ----- 
 
