@@ -1,5 +1,5 @@
 ## fr-dataset
-Scripts for generating a facial recognition dataset for deep learning applications. 
+Script for generating a facial recognition dataset for deep learning applications. 
 
 -----
 
@@ -15,7 +15,16 @@ for pip run:
 
 -----
 
-### 2. Usage:
+### 2. Usage and features:
+
+`ap = argparse.ArgumentParser()
+ap.add_argument("-isrc", "--source", required = True, help = "Path of the video file.\n If the video source comes from a webcam set: 0.")
+ap.add_argument("-sol", "--solution", required = True, help = "Solution for facial detection.\n Options: <dlib> or <resnet>")
+ap.add_argument("-c", "--crop", required = True, help = "Crop output frame.\n Options: <0> for no <1> for yes.")
+ap.add_argument("-o", "--output", required = True, help = "Path of the output folder for writing frames.")
+ap.add_argument("-n", "--name", required = True, help = "Name of the person.")
+ap.add_argument("-res", "--detector", type=str, default = "opencvresnet", help = "Folder of RESNET facial detector files compatible with the .dnn Opencv lib")
+ap.add_argument("-conf", "--confidence", type=float, default=0.5, help="Minimum probability to filter weak detections")`
 
 
 
