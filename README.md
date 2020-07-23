@@ -18,6 +18,7 @@ for pip run:
 ### 2. Usage and features:
 
 `ap = argparse.ArgumentParser()
+
 ap.add_argument("-isrc", "--source", required = True, help = "Path of the video file.\n If the video source comes from a webcam set: 0.")
 ap.add_argument("-sol", "--solution", required = True, help = "Solution for facial detection.\n Options: <dlib> or <resnet>")
 ap.add_argument("-c", "--crop", required = True, help = "Crop output frame.\n Options: <0> for no <1> for yes.")
